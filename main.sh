@@ -1,4 +1,6 @@
-00TH=/sys/class/thermal/thermal_zone0/temp
+#! /bin/bash
+
+TEMP_PATH=/sys/class/thermal/thermal_zone0/temp
 
 function printTemp
 {
